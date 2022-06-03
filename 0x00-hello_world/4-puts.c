@@ -1,4 +1,5 @@
-#include<stdio.h> 
+#include <stdio.h>
+
  /**
   * main - return some integer at the end of the execution
   *
