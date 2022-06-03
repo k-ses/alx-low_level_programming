@@ -5,7 +5,7 @@
   *
   * return: always 0 (successful execution of the program)
   */
-int main(void) /*main -entry point*/
+int main(void) //main entry point
 {
 puts("\"Programming is like building a multilingual puzzle");
 getchar();
