@@ -8,9 +8,9 @@
 #include <stdio.h>
 
 /**
-
-*Prints if random generated number is +tive, zero or -tive
-
+ * main - function
+ * no description
+ * return: 0
 */
 
 int main(void)
@@ -28,4 +28,3 @@ else
 printf("%d is positive\n", n);
 return (0);
 }
-
