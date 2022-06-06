@@ -1,24 +1,28 @@
 #include <stdio.h>
 /**
-*main - Function
-*Return: Always 0.
+* main - Prints 3 combination of numbers
+* Return: Always (Success)
 */
 int main(void)
 {
-int d1, d2, d3
-for (d1 = 0; d1 < 8; d1++)
+int c, i, k;
+for (c = '0'; c <= '9'; c++)
 {
-for (d2 = d1 + 1; d2 < 9; d2++)
+for (i = '0'; i <= '9'; i++)
 {
-for (d3 = d2 + 1; d3 < 10; d3++)
+for (k = '0'; k <= '9'; k++)
 {
-putchar((d1 % 10) + '0');
-putchar((d2 % 10) + '0');
-putchar((d3 % 10) + '0');
-if (d1 == 7 && d2 == 8 && d3 == 9)
-continue;
+if (c < i && i < k)
+{
+putchar(c);
+putchar(i);
+putchar(k);
+if (c != '7')
+{
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 }
