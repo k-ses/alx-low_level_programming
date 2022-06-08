@@ -6,9 +6,11 @@
 *Return: 0
 */
 int main(void)
-char w[8] = "_putchar";
+{
+char letters[8] = "_putchar";
 int i;
 for (i = 0; i < 8; i++)
-_putchar(w[j]);
+_putchar(letters[j]);
 _putchar('\n')
 return (0);
+}
