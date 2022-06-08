@@ -1,18 +1,15 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
 *main - main function
-*Description prints the word putchar
+*description prints _putchar
 *Return: 0
 */
 int main(void)
 {
-char h[i] = "_putchar";
-int s = sizeof(h);
-int i;
-for (i = 0; i < s; i++)
-{
-putchar(h[i]);
-}
-putchar('\n');
+char letters[8]= "_putchar"
+int k;
+for (k = 0; k < 8; k++)
+putchar(letters[k]);
+putchar("\n");
 return (0);
 }
