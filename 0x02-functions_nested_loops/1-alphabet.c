@@ -4,11 +4,11 @@
  * description: prints the alphabet in lowercase
  *followed by a new line
 */
-int main(void)
+void print_alphabet(void)
 {
-char i;
-for (i = 'a'; i <= 'z'; i++)
-putchar(i);
-putchar('\n);
+char c;
+for (c = 'a'; c <= 'z'; c++)
+_putchar(i);
+_putchar('\n);
 return (0);
 }
