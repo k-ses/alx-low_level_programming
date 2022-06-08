@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 #include "main.h"
 /**
 *main - Check description
@@ -7,10 +7,10 @@
 */
 int main(void)
 {
-char word[8] = "_putchar";
+char d[8] = "_putchar";
 int i;
 for (i = 0; i < 8; i++)
-_putchar(word[i]);
+_putchar(d[i]);
 _putchar('\n');
 return (0);
 }
