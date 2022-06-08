@@ -4,7 +4,7 @@
 * @i: int type number
 * Description: Print lst digit of a number
 * @i int type number
- Return: last digit
+* Return: last digit
 */
 int print_last_digit(int i)
 {
