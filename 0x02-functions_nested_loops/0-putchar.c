@@ -1,12 +1,12 @@
 #include <unistd.h>
-#include "main.h"
 /**
-*main - main function .
+*main - main function
+*Description prints the word putchar
 *Return: 0
 */
 int main(void)
 {
-char h[] = "_putchar";
+char h[i] = "_putchar";
 int s = sizeof(h);
 int i;
 for (i = 0; i < s; i++)
