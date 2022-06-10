@@ -1,15 +1,24 @@
 #include "main.h"
 /**
-*more_numbers - nmbr fct
-*Return: no return
+*more_numbers - function that checks for uppercase character
+*Return: 0
+*
 */
 void more_numbers(void)
 {
-int i, j;
-for (i = 1; i <= 10; i++)
+int a = 0;
+int b = 0;
+while (b <= 9)
 {
-for (j = 0; j < 15; j++)
+while (a <= 14)
 {
-_putchar('1');
+if (a > 9)
+_putchar(a / 10 + '0');
+_putchar(a % 10 + '0');
+a++;
+}
 _putchar('\n');
+b++;
+a = 0;
+}
 }
