@@ -1,21 +1,21 @@
-include "holberton.h"
+#include "holberton.h"
 /**
-*print_line - Draws a straight line according to parameter
-*@n: The number of lines to draw
-* Return: empty
+*print_line - function that checks for uppercase character.
+*@n: is the integer for the paramaters of my function
+*Return: 0
 */
 void print_line(int n)
 {
-int x;
-if (n <= 0)
+int a = 0;
+if (n > 0)
 {
+while (a <= n)
+{
+_putchar('_');
+a++;
+}
 _putchar('\n');
 }
 else
-{
-for (x = 0; x < n; x++)
-{
-_putchar(95);
 _putchar('\n');
-}
 }
