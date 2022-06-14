@@ -1,12 +1,13 @@
-#include "main.h"
-#include "string.h"
+#include "holberton.h"
 /**
- * _strlen - returns length of string
- * @s: character to return length of
- * Return: 0
+_strlen - returns the length of a string
+*@s: string to find length of
+*Return: length of s
 */
 int _strlen(char *s)
 {
-char s[] = "Alx-low_level_programming";
-printf ("length of string s = %zu \n", strlen (s));
-return 0;
+int i = 0;
+while (*(s + i))
+i++;
+return (i);
+}
