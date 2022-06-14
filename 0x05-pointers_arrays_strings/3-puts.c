@@ -4,10 +4,10 @@
 *@s: string to find length of
 *Return: length of s
 */
-int _strlen(char *s)
+void _puts(char *str);
 {
 int i = 0;
-while (*(s + i))
+while (*(str + i))
 _putchar(*(str + i));
 i++;
 _putchar ("\n");
