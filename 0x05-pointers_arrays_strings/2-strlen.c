@@ -5,7 +5,7 @@
  * @s: character to return length of
  * Return: 0
 */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 char s[] = "Alx-low_level_programming";
 printf ("length of string s = %zu \n", strlen (s));
