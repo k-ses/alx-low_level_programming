@@ -10,7 +10,7 @@ int i;
 /* loops through the string an outputs its length*/
 for (i = 0; s[i] != '\0'; i++)
 {
-} 
+}
 /*Reversing the string*/
 for (i--; i >= 0; i--)
 _putchar(s[i]);
