@@ -4,7 +4,7 @@
 *@s: string to find length of
 *Return: length of s
 */
-void _puts(char *str);
+void _puts(char *str)
 {
 int i = 0;
 while (*(str + i))
