@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+*main - function main
+*@n: interger to print 
+*Return: 0
+*/
 int main(void)
 {
 int n;
