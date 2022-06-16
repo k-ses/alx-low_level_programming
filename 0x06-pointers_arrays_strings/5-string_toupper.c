@@ -19,5 +19,6 @@ if (letter >= 'a' && letter <= 'z')
 letter -= 32;
 str[j] = letter;
 }
+}
 return (str);
 }
