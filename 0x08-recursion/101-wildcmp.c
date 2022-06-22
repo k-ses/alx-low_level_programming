@@ -1,6 +1,8 @@
 #include "main.h"
 /**
 *wildcmp - compares two strings and returns 1 if the strings
+*@s1: first string
+*@s2: second string, may contain wildcard
 *Return: On success 1.
 *On error, -1 is returned, and errno is set appropriately.
 */
