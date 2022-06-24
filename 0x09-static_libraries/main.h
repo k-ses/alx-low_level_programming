@@ -1,4 +1,3 @@
-#!/bin/bash
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -23,4 +22,4 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
-#endif\n
+#endif \n
